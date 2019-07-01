@@ -2,7 +2,7 @@
 A React Native &lt;Provider/> for synchronizing your LayoutAnimations.
 
 <p align="center">
-  <img src="./bin/demo.gif" alt="react-native-layout-animation-provider" width="600" height="1100">
+  <img src="./bin/demo.gif" alt="react-native-layout-animation-provider" width="600" height="1200">
 </p>
 
 ## 🤔 What is this for?
