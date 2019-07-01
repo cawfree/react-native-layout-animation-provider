@@ -1,0 +1,10 @@
+{
+  "name": "react-native-layout-animation-provider",
+  "version": "1.0.0",
+  "description": "A React Native <Provider/> for synchronizing your LayoutAnimations.",
+  "main": "index.js",
+  "repository": "https://github.com/cawfree/react-native-layout-animation-provider",
+  "author": "@cawfree <hello@cawfree.com>",
+  "license": "MIT",
+  "private": false
+}
