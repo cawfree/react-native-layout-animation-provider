@@ -46,7 +46,7 @@ import {
   Alert,
 } from 'react-native';
 
-import LayoutAnimationProvider, { withLayoutAnimation } from './LayoutAnimationProvider';
+import LayoutAnimationProvider, { withLayoutAnimation } from '@cawfree/react-native-layout-animation-provider';
 
 const { width } = Dimensions.get('window');
 
