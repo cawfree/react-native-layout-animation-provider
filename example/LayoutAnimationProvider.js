@@ -71,6 +71,7 @@ class LayoutAnimationProvider extends React.Component {
       animationConfig,
     );
     this.requests.map(fn => fn());
+    this.requests = [];
   }
   render() {
     const {
