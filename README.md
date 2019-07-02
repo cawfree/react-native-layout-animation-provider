@@ -12,6 +12,9 @@ The `LayoutAnimationProvider` exported by this library can be used to de-dup mul
 
 To execute an animation, a child consumer simply makes a call to the injected `setStateWithAnimation` mixin, which is appended to the class `prototype` when wrapped with `withLayoutAnimation`. Finally, instead of using `setState` to trigger a layout animation, just replace the call with `setStateWithAnimation`.
 
+Used in:
+[react-native-windowed-collapsible](https://github.com/cawfree/react-native-windowed-collapsible)
+
 ## 🚀 Getting Started
 Using [npm](https://www.npmjs.com/package/@cawfree/react-native-animation-provider)
 ```bash
