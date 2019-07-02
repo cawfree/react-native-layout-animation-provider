@@ -67,11 +67,13 @@ class LayoutAnimationProvider extends React.Component {
   }
   __executeSync() {
     const { animationConfig } = this.props;
-    LayoutAnimation.configureNext(
-      animationConfig,
-    );
-    this.requests.map(fn => fn());
-    this.requests = [];
+    this.requestAnimationFrame(() => {
+      LayoutAnimation.configureNext(
+        animationConfig,
+      );
+      this.requests.map(fn => fn());
+      this.requests = [];
+    });
   }
   render() {
     const {
@@ -99,5 +101,10 @@ LayoutAnimationProvider.defaultProps = {
   animationConfig: LayoutAnimation.Presets.spring,
   debounce: 200,
 };
+
+Object.assign(
+  LayoutAnimationProvider.prototype,
+  require('react-timer-mixin'),
+);
 
 export default LayoutAnimationProvider;
