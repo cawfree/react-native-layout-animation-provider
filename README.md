@@ -16,12 +16,12 @@ Used in:
 [react-native-windowed-collapsible](https://github.com/cawfree/react-native-windowed-collapsible)
 
 ## 🚀 Getting Started
-Using [npm](https://www.npmjs.com/package/@cawfree/react-native-animation-provider)
+Using [npm](https://www.npmjs.com/package/@cawfree/react-native-layout-animation-provider)
 ```bash
 npm install --save @cawfree/react-native-animation-provider
 ```
 
-Using [yarn](https://www.npmjs.com/package/@cawfree/react-native-animation-provider):
+Using [yarn](https://www.npmjs.com/package/@cawfree/react-native-layout-animation-provider):
 ```bash
 yarn add @cawfree/react-native-animation-provider
 ```
