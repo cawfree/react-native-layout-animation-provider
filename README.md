@@ -18,12 +18,12 @@ Used in:
 ## 🚀 Getting Started
 Using [npm](https://www.npmjs.com/package/@cawfree/react-native-layout-animation-provider)
 ```bash
-npm install --save @cawfree/react-native-animation-provider
+npm install --save @cawfree/react-native-layout-animation-provider
 ```
 
 Using [yarn](https://www.npmjs.com/package/@cawfree/react-native-layout-animation-provider):
 ```bash
-yarn add @cawfree/react-native-animation-provider
+yarn add @cawfree/react-native-layout-animation-provider
 ```
 
 ## ✍️ Example
